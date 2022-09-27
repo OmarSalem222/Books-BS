@@ -53,4 +53,9 @@ header{
         display: block;
         margin: auto;
     }
+    
+    .offset-3{
+        width: 90%;
+        margin: auto;
+    }
 }
