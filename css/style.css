@@ -1,0 +1,56 @@
+body{
+    font-family: 'Tajawal', sans-serif;
+}
+
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(90, 168, 183, .7), rgba(90, 168, 183, .7)), url(../images/mountains.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.navbar{
+    box-shadow: 0 4px 5px rgb(150, 150, 150);
+}
+
+.person-card{
+    padding-top: 60px;
+}
+
+.person-card img{
+    position: absolute;
+    left: 30%;
+    top: -15%;
+}
+
+.person-card .social i{
+    cursor: pointer;
+    transition: .2s;
+}
+
+.person-card .social i:hover{
+    color: blue !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+    .person-card{
+        margin: auto;
+    }
+
+    #contact img{
+        display: block;
+        margin: auto;
+    }
+}
